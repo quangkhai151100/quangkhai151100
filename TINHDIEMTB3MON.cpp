@@ -29,10 +29,15 @@ int main()
      	{
      		printf("\n Ban La HOC SINH TRUNG BINH");     		
      	}
-		else if (dtb<5)
-		{	
-		    printf("\n Ban CHUA DAT");
-		}				 	    	
+	else if (dtb<5)
+	{	
+	        printf("\n Ban CHUA DAT");
+	}
+	else if (dtd<3.5)
+	{
+		printf("\n Ban Con Kem Chua Dat");
+	}     
+	
      }	
      	
      	
